@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T21:46:01.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pn5ELiWvqxK31YH9as1H" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T23:54:02.719Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kOu5a-sNpeHE1VUX_YfX" version="22.1.4" type="github">
   <diagram name="Página-1" id="b2sGQ0O7b21xchEfbVHK">
     <mxGraphModel dx="1665" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,24 +68,6 @@
         </mxCell>
         <mxCell id="fIcGyZLEMwAVsQXeChhn-3" value="+Lugar(): lugar&lt;br&gt;+Lugar(string,string)&lt;br&gt;+getLugarInfo(): string&lt;br&gt;+getNombre():string&lt;br&gt;+getDescripcion():string&lt;br&gt;+setNombre(string):void&lt;br&gt;+setDescripcion(string):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="iOLiX6w0n6cZNtET1yug-13" vertex="1">
           <mxGeometry y="68" width="160" height="112" as="geometry" />
-        </mxCell>
-        <mxCell id="iOLiX6w0n6cZNtET1yug-36" value="Archivos" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="-70" width="160" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="iOLiX6w0n6cZNtET1yug-37" value="-mundo: Mundo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="iOLiX6w0n6cZNtET1yug-36" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="iOLiX6w0n6cZNtET1yug-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="iOLiX6w0n6cZNtET1yug-36" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="iOLiX6w0n6cZNtET1yug-39" value="+crearMundo():Mundo&lt;br&gt;+abrirMundo(Mundo): Void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="iOLiX6w0n6cZNtET1yug-36" vertex="1">
-          <mxGeometry y="60" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iOLiX6w0n6cZNtET1yug-40" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.006;exitY=0.765;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="iOLiX6w0n6cZNtET1yug-2" target="iOLiX6w0n6cZNtET1yug-37" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="530" y="-20" as="sourcePoint" />
-            <mxPoint x="480" y="85" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="fIcGyZLEMwAVsQXeChhn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
