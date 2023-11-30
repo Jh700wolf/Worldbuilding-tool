@@ -8,15 +8,19 @@
 
 using namespace std;
 
-class lugar{
+class Lugar{
     private:
         string nombre;
         string descripcion;
     
     public:
-        lugar();
-        lugar(string nombre, string descripcion);
-        string get_lugarInfo();
+        Lugar();
+        Lugar(string nombre, string descripcion);
+        string getLugarInfo();
+        string getNombre() const;
+        string getDescripcion();
+        void setNombre (string);
+        void setDescripcion(string);
     
 };
 
