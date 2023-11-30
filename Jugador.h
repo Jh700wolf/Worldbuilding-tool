@@ -5,15 +5,19 @@
 #include <String>
 #include <Vector>
 #include <sstream>
-#include <C:\Users\joseg\Downloads\ProyectoIntegrador\Personaje.h>
+#include "Personaje.h"
 
-class jugador:public personaje{
+class Jugador:public Personaje{
     private:
         string nombreJugador;
         string claseJugador;
     public:
-        jugador();
-        jugador(string nombre, string nombreJugador, string claseJugador, string descripcion, string biografia);
+        Jugador();
+        Jugador(string nombre, string nombreJugador, string claseJugador, string descripcion, string biografia, string fecha);
+        string getNombreJugador();
+        string getClaseJugador();
+        void setNombreJugador(string);
+        void setClaseJugador(string);
         string get_jugadorInfo();
 };
 
