@@ -7,4 +7,7 @@ Yo soy un director de juego novato, y busco una herramienta que me ayude a guard
 
 # Diagrama:
 
+
+
+
 ![DiagramaDeClases](https://github.com/Jh700wolf/Worldbuilding-tool/assets/148020631/7905bf5d-d0d7-4f0c-9111-356061ba8bde)
