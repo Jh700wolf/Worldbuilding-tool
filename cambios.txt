@@ -1,0 +1,102 @@
+1. Sub-Competencia: Modelo un diagrama de clase útil para solucionar un problema utilizando UM
+Error original: El documento de los diagramas no estaba en jpg
+Cambio realizado: Se agrego la version en jpg del diagrama
+Líneas de código donde se ve la corrección: No esta en el codigo
+
+
+2. Sub-Competencia: Sigo estándares en todo mi código fuente: estilo, sangrías, comentarios, nombres, etc...
+Error original: Todas las clases iniciaban su nombre en minusculas.
+    Ejemplo representativo:
+    class personaje{
+Cambio realizado:Todas las clases ya tienen su inicial en mayusculas.
+    Ejemplo representativo:
+    class Personaje{
+Líneas de código donde se ve la corrección:
+ 11 Evento.h
+ 10 Jugador.h
+ 11 Lugar.h
+ 17 Mundo.h
+ 10 NoJugador.h
+ 12 Personaje.h
+
+
+3. Sub-Competencia: Utilizo el concepto de herencia en el diagrama de clases de manera adecuada.
+Error original: No habia ninguna herencia en el diagrama
+Cambio realizado:Agrego una relación de herencia en el diagrama de clases (personaje con Jugador/NoJugador).
+Líneas de código donde se ve la corrección: No esta en el codigo
+
+
+
+4.Sub-Competencia: "Diseño clases sencillas completas (con todos los atributos y métodos requeridos)."
+Error original: Muchas clases no contaban con metodos.
+Cambio realizado: Se agregaron metodos al diagrama de clases.
+Líneas de código donde se ve la corrección: No esta en el codigo.
+
+5. Sub-Competencia: Codifico métodos y atributos de clase correctamente. (constructores, getters, setters)
+Error original: Todas las clases les hacian falta setters y getters.
+Cambio realizado:Agrego metodos en las clases faltantes en los metodos, entre estos setters y getters.
+Líneas de código donde se ve la corrección:
+ Evento.h 18-26
+ Evento.cpp 18-34
+ Jugador.h 15-20
+ Jugador.cpp 20-30
+ Lugar.h 19-23
+ Lugar.cpp 9-24
+ NoJugador.h 16-17
+ NoJugador.cpp 19-24
+ Personaje.h 22-27
+ Personaje.cpp 16-33
+
+
+6.Sub-Competencia: Sigo estándares en todo mi código fuente: estilo, sangrías, comentarios, nombres, etc...
+Error original: Algunos include tenian todo el path completo
+Cambio realizado:Los include ya no tienen todo el path, solo el nombre y el punto.
+Líneas de código donde se ve la corrección:
+ Evento.cpp 3
+ Jugador.cpp 1
+ Jugador.h 8
+ Lugar.cpp 1
+ Mundo.cpp 3
+ Mundo.h 9-12
+ NoJugador.cpp 1
+ NoJugador.h 8
+ Personaje.cpp 1-2
+ Personaje.h 4
+
+
+
+7. Sub-Competencia: Cumplo con estándares en mi repositorio: tiene un readme claro que explica el proyecto  (para que sirve,  para que no sirve y como se usa),
+no tiene archivos basura o versiones pasadas.
+Error original: Habia un ZIP en el repositorio
+Cambio realizado:Elimino el zip y solo estan los archivos .h y .cpp
+Líneas de código donde se ve la corrección: No esta en el codigo
+
+8. Sub-Competencia: Implemento clases apegadas a requerimientos a partir de un modelo.
+Error original:No habia un Personaje.cpp
+Cambio realizado: Se agrego un codigo Personaje.cpp
+Líneas de código donde se ve la corrección:
+ Personaje.cpp <Todo el archivo>
+
+
+9. Sub-Competencia: Sigo estándares en todo mi código fuente: estilo, sangrías, comentarios, nombres, etc...
+Error original: El Manejador de Archivos se llamaba Archivos, y no funcionaba
+Cambio realizado:Se cambio el nombre de Archivos a ManejadorArchivos, ademas de agregar su funcionamiento.
+Líneas de código donde se ve la corrección:
+ ManejadorArchivos.h <Todo el archivo>
+ ManejadorArchivos.cpp <Todo el archivo>
+
+
+
+10. Sub-Competencia: Impemento composición (o agregación) sieguiendo mi diagrama de clases
+Error original:No se habia implementado una composicion y/o agregacion al codigo.
+Cambio realizado:Se implemento la composicion y la agregacion.
+Líneas de código donde se ve la corrección:
+ Personaje.h 17
+ Personaje.cpp 14
+ main.cpp 49
+
+11. Sub-Competencia: Cumplo con estándares en mi repositorio: tiene un readme claro que explica el proyecto  (para que sirve,  para que no sirve y como se usa), 
+no tiene archivos basura o versiones pasadas.
+Error original: El contexto necesitaba una mayor explicaion del funcionamiento del codigo.
+Cambio realizado:Se expandio el contexto en el github.
+Líneas de código donde se ve la corrección:No esta en el codigo.
