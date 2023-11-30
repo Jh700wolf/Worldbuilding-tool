@@ -1,7 +1,7 @@
-#include <C:\Users\joseg\Downloads\ProyectoIntegrador\Jugador.h>
+#include "Jugador.h"
 #include <sstream>
 
-jugador :: jugador(){
+Jugador :: Jugador(){
     nombre = "Personaje";
     descripcion = "Descricpion";
     biografia = "Bio";
@@ -9,15 +9,27 @@ jugador :: jugador(){
     claseJugador = "Esta es su clase";
 }
 
-jugador :: jugador(string _nombre, string _nombreJugador, string _claseJugador, string _descripcion, string _biografia){
+Jugador :: Jugador(string _nombre, string _nombreJugador, string _claseJugador, string _descripcion, string _biografia, string _fecha){
     nombre = _nombre;
     descripcion = _descripcion;
     biografia = _biografia;
     nombreJugador = _nombreJugador;
     claseJugador = _claseJugador;
+    cumpleaños= Evento("",_fecha,"");
 }
-
-string jugador :: get_jugadorInfo(){
+string Jugador::getNombreJugador(){
+    return nombreJugador;
+}
+string Jugador::getClaseJugador(){
+    return claseJugador;
+}
+void Jugador::setNombreJugador(string _nombreJugador){
+    nombreJugador=_nombreJugador;
+}
+void Jugador::setClaseJugador(string _claseJugador){
+    claseJugador=_claseJugador;
+}
+string Jugador :: get_jugadorInfo(){
     stringstream aux;
     aux << "Nombre del personaje: " << nombre << endl;
     aux << "Nombre del jugador" << nombreJugador << endl;
