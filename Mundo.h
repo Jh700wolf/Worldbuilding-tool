@@ -4,34 +4,39 @@
 #include <iostream>
 #include <String>
 #include <Vector>
-#include <C:\Users\joseg\Downloads\ProyectoIntegrador\Evento.cpp>
-#include <C:\Users\joseg\Downloads\ProyectoIntegrador\Lugar.cpp>
-#include <C:\Users\joseg\Downloads\ProyectoIntegrador\Jugador.cpp>
-#include <C:\Users\joseg\Downloads\ProyectoIntegrador\NoJugador.cpp>
+#include <fstream>
+#include "Evento.cpp"
+#include "Lugar.cpp"
+#include "Jugador.cpp"
+#include "NoJugador.cpp"
+#include "Personaje.cpp"
 
 
 using namespace std;
 
-class mundo
+class Mundo
 {
     protected:
         string nombre;
         string descripcionBasica;
-        vector <evento> eventos;
-        vector <lugar> lugares;
-        vector <jugador> jugadores;
-        vector <noJugador> personajes;
+        vector <Evento> eventos;
+        vector <Lugar> lugares;
+        vector <Jugador> jugadores;
+        vector <NoJugador> personajes;
         
     public:
-        mundo();
-        mundo(string nombre, string descripcionBasica);
+        Mundo();
+        Mundo(string nombre, string descripcionBasica);
         string get_mundoInfo();
+        string getNombre();
+        string getDescripcionBasica();
         void set_descripcion(string descripcion);
         void set_nombre(string nombre);
-        void añadirEvento(evento eventoAgregado);
-        void añadirLugar(lugar lugarAgregado);
-        void añadirJugador(jugador jugadorAgregado);
-        void añadirPersonaje(noJugador njAgregado);
+        void añadirEvento(Evento eventoAgregado);
+        void añadirLugar(Lugar lugarAgregado);
+        void añadirJugador(Jugador jugadorAgregado);
+        void añadirPersonaje(NoJugador njAgregado);
+
         
 
 
