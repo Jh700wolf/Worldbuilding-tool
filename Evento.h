@@ -8,16 +8,22 @@
 
 using namespace std;
 
-class evento{
+class Evento{
     private:
         string nombre;
         string fecha;
         string descripcion;
     
     public:
-        evento();
-        evento(string nombre, string fecha, string descripcion);
-        string get_eventoInfo();
+        Evento();
+        Evento(string nombre, string fecha, string descripcion);
+        string getEventoInfo();
+        string getNombre() const;
+        string getFecha();
+        string getDescripcion();
+        void setNombre(string);
+        void setFecha(string);
+        void setDescripcion(string);
     
 };
 
