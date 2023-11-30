@@ -1,19 +1,27 @@
-#include "Lugar.h"
+#ifndef LUGAR_H_
+#define LUGAR_H_
+
+#include <iostream>
+#include <String>
+#include <Vector>
 #include <sstream>
 
-lugar :: lugar(){
-    nombre = "Lugar";
-    descripcion = "Añadir texto";
-}
+using namespace std;
 
-lugar :: lugar(string _nombre, string _descricpion){
-    nombre = _nombre;
-    descripcion = _descricpion;
-}
+class Lugar{
+    private:
+        string nombre;
+        string descripcion;
+    
+    public:
+        Lugar();
+        Lugar(string nombre, string descripcion);
+        string getLugarInfo();
+        string getNombre() const;
+        string getDescripcion();
+        void setNombre (string);
+        void setDescripcion(string);
+    
+};
 
-string lugar :: get_lugarInfo(){
-    stringstream aux;
-    aux << "Nombre del lugar: " << nombre << endl;
-    aux << "Descripción: " << descripcion << endl;
-    return aux.str();
-}
+#endif
