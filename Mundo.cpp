@@ -1,42 +1,47 @@
-#include "Mundo.h"
-#include <sstream>
+#ifndef MUNDO_H_
+#define MUNDO_H_
 
-mundo::mundo(){
-    nombre="Mundo";
-    descripcionBasica="Añadir texto";
-}
+#include <iostream>
+#include <String>
+#include <Vector>
+#include <fstream>
+#include "Evento.cpp"
+#include "Lugar.cpp"
+#include "Jugador.cpp"
+#include "NoJugador.cpp"
+#include "Personaje.cpp"
 
-mundo::mundo(string _nombre, string _descripcionBasica){
-    nombre = _nombre;
-    descripcionBasica = _descripcionBasica;
-}
 
-string mundo :: get_mundoInfo(){
-    stringstream aux;
-    aux << "Nombre: " << nombre << endl;
-    aux << "Descripcion general: " << descripcionBasica << endl;
-    return aux.str();
-}
+using namespace std;
 
-void mundo :: set_nombre(string _nombre){
-    nombre = _nombre;
-}
+class Mundo
+{
+    protected:
+        string nombre;
+        string descripcionBasica;
+        vector <Evento> eventos;
+        vector <Lugar> lugares;
+        vector <Jugador> jugadores;
+        vector <NoJugador> personajes;
+        
+    public:
+        Mundo();
+        Mundo(string nombre, string descripcionBasica);
+        string get_mundoInfo();
+        string getNombre();
+        string getDescripcionBasica();
+        void set_descripcion(string descripcion);
+        void set_nombre(string nombre);
+        void añadirEvento(Evento eventoAgregado);
+        void añadirLugar(Lugar lugarAgregado);
+        void añadirJugador(Jugador jugadorAgregado);
+        void añadirPersonaje(NoJugador njAgregado);
 
-void mundo :: set_descripcion(string _descripcion){
-    descripcionBasica = _descripcion;
-}
-void mundo :: añadirEvento(evento _evento){
-    eventos.push_back(_evento);
-}
+        
 
-void mundo :: añadirLugar(lugar _lugar){
-    lugares.push_back(_lugar);
-}
 
-void mundo :: añadirJugador(jugador _jugador){
-    jugadores.push_back(_jugador);
-}
 
-void mundo :: añadirPersonaje(noJugador _noJugador){
-    personajes.push_back(_noJugador);
-}
+
+};
+
+#endif
