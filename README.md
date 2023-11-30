@@ -4,5 +4,7 @@ El proyecto trata de una herramienta sencilla para la creacion de de mundo para 
 
 # Motivación:
 Yo soy un director de juego novato, y busco una herramienta que me ayude a guardar mi información, sin verme limitado por un precio muy alto o un producto de baja calidad. Con este proyecto, podre desarollar una herramienta que me pueda guardar solo la información que considere relevante. Otra cosa importante es el hecho que con este proyecto podre desarollar mis habilidades de C++ y de la programación orientada a objetos. El entendimiento de esta aplicaión me ayudara a crear proyectos de mayor complejidad a futuro.
-#Diagrama de clases
+
+# Diagrama:
+
 ![DiagramaDeClases](https://github.com/Jh700wolf/Worldbuilding-tool/assets/148020631/7905bf5d-d0d7-4f0c-9111-356061ba8bde)
